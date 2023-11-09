@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GIÁNG SINH AN LÀNH</title>
+<link rel="stylesheet" type="text/css" href="Box.css">
+<link rel="stylesheet" type="text/css" href="card.css">
+  <style>
+    body 
+	{
+      overflow: hidden;
+    }
+
+    .snowflake 
+	{
+      position: absolute;
+      top: -10px;
+      color:white;
+	  font-size:24px;
+      animation: snowfall linear infinite;
+    }
+
+    @keyframes snowfall {
+      0% 
+	  {
+        transform: translateY(0);
+      }
+      100% 
+	  {
+        transform: translateY(100vh);
+      }
+    }
+  </style>
+</head>
+<body style="background-image:url(background.jpg);background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-position:center;margin:0;padding:0;">
+
+        <!--Nhạc-->
+       	<audio src="christmas.mp3" controls loop>
+        	
+    	</audio>
+    	<!--Tuyết-->
+		<div id="snowfall"></div>
+      <!--Hộp-->
+		<div>
+        	<section class="above-fold">
+          <div class="wrap-present">
+            <div class="present-box" id="present">
+              <div class="present">
+                <div class="img-wrap" id="present-image">
+                </div>
+              </div>
+              <div class="side front"></div>
+              <div class="side back"></div>
+              <div class="side left"></div>
+              <div class="side right"></div>
+              <div class="side top">
+                <span class="to">
+                  <span class="name" id="nametag">
+                  </span>
+                </span>
+              </div>
+              <div class="side bottom"></div>
+            </div>
+          </div>
+          <p class="info-text">Click to Open</p>
+        </section>
+        <!--Thiệp-->
+        <div id="card"><h4>💘Lời chúc💘</h4>
+
+            <img src="hoa.jpg" class="hinh"/>
+
+        <h4>You are special, you are unique! May your Christmas be also as special and unique as you are! Merry Christmas!💘</h4></div>
+        </div>
+<script type="text/javascript" src="Untitled-2.js"></script> 
+</body>
+</html>
